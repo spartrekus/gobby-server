@@ -1,0 +1,17 @@
+adduser --system --gecos "Infinoted Service" --disabled-password --group --home /home/infinoted infinoted
+
+
+
+mkdir /home/infinoted/keys && mkdir /home/infinoted/data && mkdir /home/infinoted/sync
+
+
+chown -R infinoted: /home/infinoted
+
+
+
+into xdg infinoted.conf
+[infinoted]
+security-policy=require-tls
+key-file=/home/infinoted/keys/infinoted.key
+certificate-file=/home/infinoted/keys/infinoted.cert
+
