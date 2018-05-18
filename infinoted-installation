@@ -15,3 +15,8 @@ security-policy=require-tls
 key-file=/home/infinoted/keys/infinoted.key
 certificate-file=/home/infinoted/keys/infinoted.cert
 
+
+// more reading: https://systemausfall.org/wikis/howto/Infinoted%20und%20Gobby%20unter%20Debian%20installieren
+
+
+
